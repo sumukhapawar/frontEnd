@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	background-color: #0f7283fc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	margin: auto;
+	flex-direction: column;
+	background-image: url(../images/bg-pattern-bottom.svg), url(../images/bg-pattern-top.svg);
+	background-position: top 50vh left 45vw, bottom 50vh right 45vw;
+	background-repeat: no-repeat;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	user-select: none;
+	font-size: 1rem;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bolder;
+	font-size: 1.5rem;
+}
+
+span {
+	font-family: arial, sans-serif;
+	font-weight: 100;
+}
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: arial, sans-serif;
+	font-weight: 100;
+}
+
+
+.card {
+	background-color: #fff;
+	border-radius: 10px;
+	background-image: url(../images/bg-pattern-card.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	width: 370px;
+	height: 430px;
+	box-shadow: 5px 5px 15px #2c2c248a;
+}
+
+#victor {
+	border-radius: 50%;
+	position: relative;
+	top: 100px;
+	border: 5px solid #fff;
+}
+
+.profile {
+	margin-top: 100px;
+}
+
+.info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5px;
+	line-height: .5;
+}
+
+.followers {
+	width: 100px;
+}
+.likes {
+	width: 130px;
+}
+.photos {
+	width: 100px;
+}
