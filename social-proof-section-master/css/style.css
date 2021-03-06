@@ -3,7 +3,7 @@ body {
 	font-size: 15px;
 	padding: 50px;
 	min-height: 100vh;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 section {
 	padding: 30px;
