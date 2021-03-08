@@ -1,0 +1,148 @@
+/* CSS Resets */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Element selectors */
+body {
+	background-color: #fff;
+	font-family: 'Spartan', sans-serif;
+	text-align: center;
+	padding: 6em 1.5em;
+	height: 100vh;
+	background: url(../images/bg-pattern-top-mobile.svg);
+	background-repeat: no-repeat;
+}
+p {
+	line-height: 2;
+}
+
+
+/* Header section */
+header {
+	color: hsl(300, 43%, 22%);
+	margin: 15px 0px;
+}
+h1 {
+	font-weight: 700;
+	font-size: 3rem;
+}
+
+/* rating section */
+.rating-section {
+	margin: 30px 0px;
+}
+.ratings {
+	background-color: hsl(300, 24%, 96%);	
+	margin: 15px 0px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.ratings p {
+	color: hsl(300, 43%, 22%);
+	padding: 5px;
+	font-weight: 700;
+}
+
+/* Cards section */
+.cards-section {
+	margin: 15px 0px;
+	color: #fff;
+	text-align: left;
+}
+.cards {
+	margin: 15px 0px;
+	background-color: hsl(300, 43%, 22%);
+	border-radius: 10px;
+	padding: 50px 30px;
+	box-shadow: 2px 2px 2px 2px #97979752;
+}
+.cards img {
+	border-radius: 50%;
+	width: 65px;
+	float: left;
+	margin-right: 15px;
+}
+.card-description {
+	color: hsl(333, 80%, 67%); 
+}
+.card-content {
+	clear: both;
+	margin-top: 30px;
+}
+.attribution {
+    font-size: 11px;
+   	text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+/* For desktops */
+@media (min-width: 975px) {
+	body {
+		padding: 6em 1.5em;
+		background: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+		background-repeat: no-repeat;
+	}
+	.top-wrap {
+		margin-bottom: 250px;
+	}
+	header {
+		display: inline-block;
+		float: left;
+		width: 45%;
+		text-align: left;
+		padding: 15px;
+	}
+	.rating-section {
+		display: inline-block;
+		float: right;
+		width: 45%;
+		margin: 0;
+	}
+	.ratings {
+		display: flex;
+		align-items: center;
+		width: 75%;
+	}
+	#side1 {
+		position: relative;
+		left: 50px;
+	}
+	#side2 {
+		position: relative;
+		left: 100px;
+	}
+	.ratings img {
+		margin-right: 5px; 
+	}
+	.ratings p {
+		margin-left: 10px;
+	}
+	.cards-section {
+		clear: both;
+		display: flex;
+		flex-direction: row;
+		margin-top: 250px;
+	}
+	.cards {
+		width: 33%;
+		margin: 15px;
+	}
+	#down1 {
+		position: relative;
+		top: 50px;
+	}
+	#down2 {
+		position: relative;
+		top: 100px;
+	}
+	.attribution {
+		margin-top: 100px;
+	}
+}
