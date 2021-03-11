@@ -53,7 +53,7 @@ header {
 }
 
 /* For small screen devices */
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   body {
     padding: 2rem 0.5rem;
   }
@@ -65,12 +65,14 @@ header {
   }
 }
 
+/* For large screen devices */
 @media (min-width: 976px) {
   body {
     padding: 1rem 1.5rem;
   }
   div {
     margin: 15px;
+    height: 40vh;
   }
   .cards {
     display: flex;
