@@ -15,7 +15,7 @@ body {
 div {
   background-color: #fff;
   margin: 1.5rem auto;
-  height: 40vh;
+  height: 35vh;
   padding: 20px;
   position: relative;
   box-shadow: 0px 0px 10px 5px rgba(207, 206, 206, 0.637);
@@ -52,8 +52,8 @@ header {
   border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-/* For small screen devices */
-@media (max-width: 375px) {
+For small screen devices */
+/* @media (max-width: 375px) {
   body {
     padding: 2rem 0.5rem;
   }
