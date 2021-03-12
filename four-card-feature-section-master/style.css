@@ -52,8 +52,8 @@ header {
   border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-For small screen devices */
-/* @media (max-width: 375px) {
+/* For small screen devices */
+@media (max-width: 375px) {
   body {
     padding: 2rem 0.5rem;
   }
